@@ -1,0 +1,22 @@
+spring:
+
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5775/postgres
+    username: root
+    password: root
+
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+    show-sql: true
+#    hibernate:
+#      ddl-auto: create
+
+  #  various colors of logging
+  output:
+    ansi:
+      enabled: ALWAYS
+
+server:
+  port: 8080
