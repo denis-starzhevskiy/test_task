@@ -2,18 +2,9 @@ package task.controller;
 
 import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.Resource;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.lang.Nullable;
-import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
-import task.model.CurrencyLimit;
 import task.service.CurrencyLimitService;
-
-import java.io.File;
-import java.io.IOException;
 
 @RestController
 @RequestMapping("/cryptocurrencies")

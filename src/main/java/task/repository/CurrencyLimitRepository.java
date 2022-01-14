@@ -9,8 +9,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 import task.model.CurrencyLimit;
 
-import java.util.Optional;
-
 @Repository
 public interface CurrencyLimitRepository extends JpaRepository<CurrencyLimit, Long> {
 
